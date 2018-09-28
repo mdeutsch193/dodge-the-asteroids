@@ -88,7 +88,7 @@ import javax.swing.JTextField;
 			stillPlaying = this.landscape.advance();
 			this.display.update();
 		}
-		Thread.sleep(100);
+		Thread.sleep(150);
 		return stillPlaying;
 	}
 	
